@@ -80,10 +80,6 @@ let recognition  = new speechRecognition()
         speak("travis is a nice guy but sometime they become naughty boy ")
      }
 
-     else if(message.includes("who is Arun")){
-        speak("Abe Arun, tu itna bada chutiya hai ki teri girlfriend bhi tujhe dekh ke sochti hogi, “Bhenchod, meri choice mein itni badi galti kaise ho gayi")
-     }
-
     else if (message.includes("open youtube")){
     speak("Openning youtube...");
     window.open("https://www.youtube.com/","_blank")
@@ -110,24 +106,26 @@ let recognition  = new speechRecognition()
     speak("Openning marwadi university login page ...");
     window.open("https://login.marwadiuniversity.ac.in:553/","_blank")
    }
-    else if(message.includes("open marwadi university web page")){
+    else if(message.includes("open MU web page")){
     speak("Openning marwadi university web page...");
     window.open("https://www.marwadiuniversity.ac.in/","_blank")
    }
-        
-     else if(message.includes("viratkohi insta id")){
-    speak("Openning marwadi university web page...");
-     window.open("https://www.instagram.com/virat.kohli/?hl=en/","_blank")
-   }    
+     else if (message.includes("virat kohli insta id")) {
+
+        speak("Opening Virat Kohli Instagram...");
+        window.open("https://www.instagram.com/virat.kohli/", "_blank");
+    }   
     
-    else if(message.includes("open linkedin")){
-    speak("Openning marwadi university web page...");
-     window.open("https://www.linkedin.com/in/rishuraj777/","_blank")
-   }
-    else if(message.includes("openinstagram")){
-    speak("Openning instagram...");
-    window.open("https://www.instagram.com/","_blank")
-   }
+   else if (message.includes("linkedin")) {
+
+        speak("Opening LinkedIn...");
+        window.open("https://www.linkedin.com/in/rishuraj777/", "_blank");
+    }
+    else if (message.includes("instagram")) {
+
+        speak("Opening Instagram...");
+        window.open("https://www.instagram.com/", "_blank");
+    }
     else if(message.includes("open spotify")){
     speak("Openning spotify...");
     window.open("https://www.spotify.com/","_blank")  
@@ -136,10 +134,11 @@ let recognition  = new speechRecognition()
     speak("Openning calculator...");
     window.open("calculator://")
    }
-    else if(message.includes("openwhatsapp")){
-    speak("Openning whatsapp...");
-    window.open("whatsapp://")
-   }
+   else if (message.includes("open whatsapp")) {
+
+        speak("Opening WhatsApp...");
+        window.open("https://web.whatsapp.com/", "_blank");
+    }
     else if(message.includes("time")){
     let time= new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
     speak(time);
