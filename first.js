@@ -85,10 +85,11 @@ let recognition  = new speechRecognition()
     window.open("https://www.youtube.com/","_blank")
     } 
         
-    else if(message.includes("openfacebook")){
-    speak("Openning facebook...");
-    window.open("https://www.facebook.com/","_blank")
-   }
+   else if (message.includes("open facebook")) {
+
+        speak("Opening Facebook...");
+        window.open("https://www.facebook.com/", "_blank");
+    }
     
     else if(message.includes("open chatgpt")){
     speak("Openning chatgpt...");
@@ -106,10 +107,14 @@ let recognition  = new speechRecognition()
     speak("Openning marwadi university login page ...");
     window.open("https://login.marwadiuniversity.ac.in:553/","_blank")
    }
-    else if(message.includes("open MU web page")){
-    speak("Openning marwadi university web page...");
-    window.open("https://www.marwadiuniversity.ac.in/","_blank")
-   }
+    else if (
+        message.includes("open mu web page") ||
+        message.includes("open marwadi university website")
+    ) {
+
+        speak("Opening Marwadi University website...");
+        window.open("https://www.marwadiuniversity.ac.in/", "_blank");
+    }
      else if (message.includes("virat kohli insta id")) {
 
         speak("Opening Virat Kohli Instagram...");
