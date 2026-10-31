@@ -89,7 +89,7 @@ let recognition  = new speechRecognition()
     window.open("https://www.youtube.com/","_blank")
     } 
         
-    else if(message.includes("open facebook")){
+    else if(message.includes("openfacebook")){
     speak("Openning facebook...");
     window.open("https://www.facebook.com/","_blank")
    }
@@ -110,11 +110,21 @@ let recognition  = new speechRecognition()
     speak("Openning marwadi university login page ...");
     window.open("https://login.marwadiuniversity.ac.in:553/","_blank")
    }
-    else if(message.includes("opne marwadi web page")){
+    else if(message.includes("open marwadi university web page")){
     speak("Openning marwadi university web page...");
     window.open("https://www.marwadiuniversity.ac.in/","_blank")
    }
-    else if(message.includes("open instagram")){
+        
+     else if(message.includes("viratkohi insta id")){
+    speak("Openning marwadi university web page...");
+     window.open("https://www.instagram.com/virat.kohli/?hl=en/","_blank")
+   }    
+    
+    else if(message.includes("open linkedin")){
+    speak("Openning marwadi university web page...");
+     window.open("https://www.linkedin.com/in/rishuraj777/","_blank")
+   }
+    else if(message.includes("openinstagram")){
     speak("Openning instagram...");
     window.open("https://www.instagram.com/","_blank")
    }
@@ -126,7 +136,7 @@ let recognition  = new speechRecognition()
     speak("Openning calculator...");
     window.open("calculator://")
    }
-    else if(message.includes("open whatsapp")){
+    else if(message.includes("openwhatsapp")){
     speak("Openning whatsapp...");
     window.open("whatsapp://")
    }
