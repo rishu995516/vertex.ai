@@ -106,7 +106,7 @@ let recognition  = new speechRecognition()
     speak("Openning perplexity...");
     window.open("https://www.perplexity.ai/","_blank")
    }
-    else if(message.includes("opne marwadi university login page")){
+    else if(message.includes("open marwadi university login page")){
     speak("Openning marwadi university login page ...");
     window.open("https://login.marwadiuniversity.ac.in:553/","_blank")
    }
@@ -114,7 +114,7 @@ let recognition  = new speechRecognition()
     speak("Openning marwadi university web page...");
     window.open("https://www.marwadiuniversity.ac.in/","_blank")
    }
-    else if(message.includes("open nstagram")){
+    else if(message.includes("open instagram")){
     speak("Openning instagram...");
     window.open("https://www.instagram.com/","_blank")
    }
