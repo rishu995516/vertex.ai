@@ -131,7 +131,7 @@ let recognition  = new speechRecognition()
         speak("Opening Instagram...");
         window.open("https://www.instagram.com/", "_blank");
     }
-       else if (message.includes("IRCTC")) {
+       else if (message.includes("irctc")) {
 
         speak("Opening indian railway offical web page ...");
         window.open("https://www.irctc.co.in/nget/train-search", "_blank");
