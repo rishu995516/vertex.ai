@@ -80,7 +80,7 @@ let recognition  = new speechRecognition()
         speak("travis is a nice guy but sometime they become naughty boy ")
      }
 
-    else if (message.includes("open youtube")){
+    else if (message.includes(" start youtube")){
     speak("Openning youtube...");
     window.open("https://www.youtube.com/","_blank")
     } 
@@ -131,11 +131,11 @@ let recognition  = new speechRecognition()
         speak("Opening Instagram...");
         window.open("https://www.instagram.com/", "_blank");
     }
-    else if(message.includes("open spotify")){
+    else if(message.includes("start  spotify")){
     speak("Openning spotify...");
     window.open("https://www.spotify.com/","_blank")  
    }
-    else if(message.includes("opencalculator")){
+    else if(message.includes("calculator")){
     speak("Openning calculator...");
     window.open("calculator://")
    }
