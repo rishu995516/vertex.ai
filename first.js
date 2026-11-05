@@ -131,6 +131,11 @@ let recognition  = new speechRecognition()
         speak("Opening Instagram...");
         window.open("https://www.instagram.com/", "_blank");
     }
+     else if (message.includes("what is the network speed")) {
+
+        speak("you current network speed is...");
+        window.open("https://fast.com/", "_blank");
+    }
     else if(message.includes("open spotify")){
     speak("Openning spotify...");
     window.open("https://www.spotify.com/","_blank")  
