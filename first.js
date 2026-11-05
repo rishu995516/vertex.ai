@@ -103,7 +103,7 @@ let recognition  = new speechRecognition()
     speak("Openning perplexity...");
     window.open("https://www.perplexity.ai/","_blank")
    }
-    else if(message.includes("open marwadi university login page")){
+    else if(message.includes("marwadi university login page")){
     speak("Openning marwadi university login page ...");
     window.open("https://login.marwadiuniversity.ac.in:553/","_blank")
    }
@@ -131,6 +131,16 @@ let recognition  = new speechRecognition()
         speak("Opening Instagram...");
         window.open("https://www.instagram.com/", "_blank");
     }
+       else if (message.includes("IRCTC")) {
+
+        speak("Opening indian railway offical web page ...");
+        window.open("https://www.irctc.co.in/nget/train-search", "_blank");
+    } 
+        else if (message.includes("github")) {
+
+        speak("Opening github...");
+        window.open("https://github.com/", "_blank");
+    }  
      else if (message.includes("what is the network speed")) {
 
         speak("you current network speed is...");
