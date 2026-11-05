@@ -80,7 +80,7 @@ let recognition  = new speechRecognition()
         speak("travis is a nice guy but sometime they become naughty boy ")
      }
 
-    else if (message.includes(" start youtube")){
+    else if (message.includes("open youtube")){
     speak("Openning youtube...");
     window.open("https://www.youtube.com/","_blank")
     } 
@@ -112,7 +112,7 @@ let recognition  = new speechRecognition()
         message.includes("open marwadi university website")
     ) {
 
-        speak("Opening Marwadi University website...");
+        speak("Opening Marwadi University website");
         window.open("https://www.marwadiuniversity.ac.in/", "_blank");
     }
      else if (message.includes("virat kohli insta id")) {
@@ -131,7 +131,7 @@ let recognition  = new speechRecognition()
         speak("Opening Instagram...");
         window.open("https://www.instagram.com/", "_blank");
     }
-    else if(message.includes("start  spotify")){
+    else if(message.includes("open spotify")){
     speak("Openning spotify...");
     window.open("https://www.spotify.com/","_blank")  
    }
